@@ -1,9 +1,9 @@
 import React from 'react'
 
-export default function () {
+export default function Note () {
   return (
     <div className='note'>
-        <h1>Keeper App</h1>
+        <h1>This is note Title</h1>
         <p>content</p>
     </div>
   )
