@@ -2,6 +2,6 @@ import React from 'react'
 
 export default function Header() {
   return (
-    <header>Keeper</header>
+    <header><h1>Keeper</h1></header>
   )
 }
