@@ -4,15 +4,13 @@ import Footer from "./Components/Footer";
 import Note from "./Components/Note";
 import notes from "./Components/Notes";
 
-
 function App() {
   return (
     <div>
       <Header />
-      {notes.map((notes) => 
-   <Note key={notes.id} title={notes.title} content={notes.content} />
-
-)}
+      {notes.map((notes) => (
+        <Note key={notes.id} title={notes.title} content={notes.content} />
+      ))}
       <Footer />
     </div>
   );
